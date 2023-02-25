@@ -4,24 +4,85 @@
   box-sizing: border-box;
 }
 
+/*Impostazioni generiche  */
 .d-flex{
   display: flex;
 }
 
+/*Elementi*/
+
 .black{
   height: calc(100vh - 80px);
   background-color: black;
+  position: relative;
+  padding: 50px 100px 0px 100px;
 }
 
 .buttonboxtop{
-  width: 200px; 
-  height: 50px;
-  background-color: rgb(135, 212, 63);
+  position: absolute;
+  right: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.button{
+  background-color: #4a4a4a;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 0 3px;
+}
+
+.button:hover{
+  cursor: pointer;
 }
 
 .button svg{
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
+  fill: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.button span{
+  font-size: small;
+  color: white;
+}
+
+/*Main  */
+
+.container{
+  background-color: aquamarine;
+}
+
+.user-card{
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.mic-name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding: 6px;
+}
+
+.mic-name img{
+  object-fit: cover;
+}
+
+.mic-name svg{
+  width: 15px;
+  height: 15px;
   fill: white;
 }
+
+.name{
+  color: white;
+}
+
 
