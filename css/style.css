@@ -29,11 +29,14 @@
 
 /*Elementi*/
 
+header{
+  position: relative;
+  height: 60px;
+}
+
 .black{
   height: calc(100vh - 80px);
   background-color: black;
-  position: relative;
-  padding-top: 50px;
   padding-left: 60px;
 }
 
@@ -61,8 +64,6 @@
   width: 15px;
   height: 15px;
   fill: white;
-  justify-content: center;
-  align-items: center;
 }
 
 .button span{
@@ -78,7 +79,7 @@
 
 .user-card{
   position: relative;
-  border: 1px solid black;
+  border: 3px solid black;
 }
 
 .user-card img{
