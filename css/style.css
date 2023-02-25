@@ -15,7 +15,8 @@
   height: calc(100vh - 80px);
   background-color: black;
   position: relative;
-  padding: 50px 100px 0px 100px;
+  padding-top: 50px;
+  padding-left: 60px;
 }
 
 .buttonboxtop{
@@ -54,13 +55,16 @@
 /*Main  */
 
 .container{
-  background-color: aquamarine;
+  flex-wrap: wrap;
 }
 
 .user-card{
   position: relative;
-  width: 300px;
-  height: 200px;
+  border: 1px solid black;
+}
+
+.user-card img{
+  object-fit: cover;
 }
 
 .mic-name{
@@ -69,10 +73,6 @@
   left: 0;
   background-color: rgba(0,0,0,0.3);
   padding: 6px;
-}
-
-.mic-name img{
-  object-fit: cover;
 }
 
 .mic-name svg{
@@ -85,4 +85,7 @@
   color: white;
 }
 
+
+
+/*Footer  */
 
