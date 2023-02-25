@@ -9,6 +9,24 @@
   display: flex;
 }
 
+.aling-center{
+  align-items: center;
+}
+
+.small{
+  width: 14px;
+  height: 14px;
+}
+
+.cursor:hover{
+  cursor: pointer;
+}
+
+.left{
+  margin-left: 15px;
+}
+
+
 /*Elementi*/
 
 .black{
@@ -85,7 +103,75 @@
   color: white;
 }
 
+.active{
+  fill: #4bc800;
+}
+
 
 
 /*Footer  */
+
+footer{
+  background-color: #222222;
+  height: 80px;
+  justify-content: center;
+  position: relative;
+}
+
+footer-left{
+  width: 24%;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+}
+
+footer-center{
+  width: 50%;
+  height: 80px;
+  justify-content: center;
+}
+
+footer-right{
+  width: 25%;
+  height: 80px;
+  position: absolute;
+  right: 0;
+}
+
+footer svg{
+  width: 30px;
+  height: 30px;
+  fill: #fff
+}
+
+footer-center .svg-box{
+  padding: 5px;
+}
+
+.name-box{
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt{
+  color: white;
+  font-size: small;
+}
+
+.svg-box{
+  align-items: center;
+}
+
+.end-meeting{
+  background-color: #4a4a4a;
+  color: red;
+  position: absolute;
+  right: 0;
+  width: 110px;
+  height: 100%;
+}
+
+.end-meeting:hover{
+  cursor: pointer;
+}
 
