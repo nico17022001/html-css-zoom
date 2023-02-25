@@ -36,7 +36,7 @@ header{
 
 .black{
   height: calc(100vh - 80px);
-  background-color: black;
+  background-color: #0e0e0e;
   padding-left: 60px;
 }
 
