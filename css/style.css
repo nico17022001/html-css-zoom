@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.d-flex{
+  display: flex;
+}
+
+.black{
+  height: calc(100vh - 80px);
+  background-color: black;
+}
+
+.buttonboxtop{
+  width: 200px; 
+  height: 50px;
+  background-color: rgb(135, 212, 63);
+}
+
+.button svg{
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
